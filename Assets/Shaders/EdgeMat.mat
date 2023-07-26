@@ -18,8 +18,9 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 2000
+  stringTagMap:
+    MotionVector: User
   disabledShaderPasses:
   - TransparentDepthPrepass
   - TransparentDepthPostpass
@@ -145,14 +146,15 @@ Material:
     - _Anisotropy: 0
     - _BlendMode: 0
     - _CoatMask: 0
-    - _Color_max: 0.15
-    - _Color_min: 0.11
+    - _Color_max: 0.02
+    - _Color_min: 0.01
+    - _ConservativeDepthOffsetEnable: 0
     - _CullMode: 2
     - _CullModeForward: 2
     - _Cutoff: 0.5
     - _DepthOffsetEnable: 0
-    - _Depth_max: 0.07
-    - _Depth_min: 0.03
+    - _Depth_max: 0.1
+    - _Depth_min: 0.78
     - _DetailAlbedoScale: 1
     - _DetailNormalScale: 1
     - _DetailSmoothnessScale: 1
@@ -192,11 +194,11 @@ Material:
     - _MetallicRemapMax: 1
     - _MetallicRemapMin: 0
     - _Noise_intensity: 0.004
-    - _Noise_size: 60.8
+    - _Noise_size: 50
     - _NormalMapSpace: 0
     - _NormalScale: 1
-    - _Normal_max: 0.29
-    - _Normal_min: 0.72
+    - _Normal_max: 0.08
+    - _Normal_min: -0.02
     - _ObjectSpaceUVMapping: 0
     - _ObjectSpaceUVMappingEmissive: 0
     - _OpaqueCullMode: 2
@@ -209,6 +211,7 @@ Material:
     - _ReceivesSSR: 1
     - _ReceivesSSRTransparent: 0
     - _RefractionModel: 0
+    - _RenderQueueType: 1
     - _Smoothness: 0.5
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0
@@ -217,13 +220,15 @@ Material:
     - _SpecularOcclusionMode: 1
     - _SrcBlend: 1
     - _StencilRef: 0
-    - _StencilRefDepth: 8
+    - _StencilRefDepth: 1
+    - _StencilRefDistortionVec: 4
     - _StencilRefGBuffer: 10
-    - _StencilRefMV: 40
+    - _StencilRefMV: 33
     - _StencilWriteMask: 6
     - _StencilWriteMaskDepth: 9
+    - _StencilWriteMaskDistortionVec: 4
     - _StencilWriteMaskGBuffer: 15
-    - _StencilWriteMaskMV: 41
+    - _StencilWriteMaskMV: 43
     - _SubsurfaceMask: 1
     - _SupportDecals: 1
     - _SurfaceType: 0
@@ -239,7 +244,7 @@ Material:
     - _TransparentSortPriority: 0
     - _TransparentWritingMotionVec: 0
     - _TransparentZWrite: 0
-    - _Twirl_intensity: 0.0082
+    - _Twirl_intensity: 0.0138
     - _UVBase: 0
     - _UVDetail: 0
     - _UVEmissive: 0
@@ -249,11 +254,11 @@ Material:
     - _ZTestGBuffer: 4
     - _ZTestTransparent: 4
     - _ZWrite: 1
-    - _lineWidth: 1.61
+    - _lineWidth: 0.75
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 0.1509434, g: 0.1509434, b: 0.1509434, a: 1}
+    - _Color: {r: 0, g: 0, b: 0, a: 1}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
