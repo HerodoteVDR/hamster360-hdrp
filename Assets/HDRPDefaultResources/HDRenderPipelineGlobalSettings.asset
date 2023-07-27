@@ -16,19 +16,19 @@ MonoBehaviour:
   m_LookDevVolumeProfile: {fileID: 11400000, guid: 254320a857a30444da2c99496a186368, type: 2}
   m_RenderingPathDefaultCameraFrameSettings:
     bitDatas:
-      data1: 140666621263709
-      data2: 4539628436200587288
+      data1: 69853466591103
+      data2: 4539628432174284808
     lodBias: 1
     lodBiasMode: 0
-    lodBiasQualityLevel: 0
+    lodBiasQualityLevel: 2
     maximumLODLevel: 0
     maximumLODLevelMode: 0
-    maximumLODLevelQualityLevel: 0
+    maximumLODLevelQualityLevel: 2
     sssQualityMode: 0
     sssQualityLevel: 0
     sssCustomSampleBudget: 20
     msaaMode: 1
-    materialQuality: 0
+    materialQuality: 4
   m_RenderingPathDefaultBakedOrCustomReflectionFrameSettings:
     bitDatas:
       data1: 139746950279965
@@ -46,7 +46,7 @@ MonoBehaviour:
     materialQuality: 0
   m_RenderingPathDefaultRealtimeReflectionFrameSettings:
     bitDatas:
-      data1: 139720912016133
+      data1: 139720912012045
       data2: 4539628424389492760
     lodBias: 1
     lodBiasMode: 0
@@ -60,7 +60,7 @@ MonoBehaviour:
     msaaMode: 1
     materialQuality: 0
   m_RenderPipelineResources: {fileID: 11400000, guid: 3ce144cff5783da45aa5d4fdc2da14b7, type: 2}
-  m_RenderPipelineRayTracingResources: {fileID: 0}
+  m_RenderPipelineRayTracingResources: {fileID: 11400000, guid: ba6e7f30e5cffc249a8bf7ee5756c196, type: 2}
   beforeTransparentCustomPostProcesses: []
   beforePostProcessCustomPostProcesses: []
   afterPostProcessBlursCustomPostProcesses: []

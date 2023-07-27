@@ -147,14 +147,14 @@ Material:
     - _BlendMode: 0
     - _CoatMask: 0
     - _Color_max: 0.01
-    - _Color_min: 0.01
+    - _Color_min: 0.001
     - _ConservativeDepthOffsetEnable: 0
     - _CullMode: 2
     - _CullModeForward: 2
     - _Cutoff: 0.5
     - _DepthOffsetEnable: 0
-    - _Depth_max: 0.1
-    - _Depth_min: 0.39
+    - _Depth_max: 1.33
+    - _Depth_min: 0.16
     - _DetailAlbedoScale: 1
     - _DetailNormalScale: 1
     - _DetailSmoothnessScale: 1
@@ -175,6 +175,7 @@ Material:
     - _EnableFogOnTransparent: 1
     - _EnableGeometricSpecularAA: 0
     - _EnergyConservingSpecularColor: 1
+    - _Full_Render: 0
     - _HeightAmplitude: 0.02
     - _HeightCenter: 0.5
     - _HeightMapParametrization: 0
@@ -194,14 +195,15 @@ Material:
     - _MetallicRemapMax: 1
     - _MetallicRemapMin: 0
     - _Noise_intensity: 0.004
-    - _Noise_size: 39.3
+    - _Noise_size: 57.8
     - _NormalMapSpace: 0
     - _NormalScale: 1
-    - _Normal_max: 0.08
-    - _Normal_min: 0.17
+    - _Normal_max: 0.2
+    - _Normal_min: 0.29
     - _ObjectSpaceUVMapping: 0
     - _ObjectSpaceUVMappingEmissive: 0
     - _OpaqueCullMode: 2
+    - _Outline_render: 0
     - _PPDLodThreshold: 5
     - _PPDMaxSamples: 15
     - _PPDMinSamples: 5
@@ -244,7 +246,7 @@ Material:
     - _TransparentSortPriority: 0
     - _TransparentWritingMotionVec: 0
     - _TransparentZWrite: 0
-    - _Twirl_intensity: 0.0356
+    - _Twirl_intensity: 0.0079
     - _UVBase: 0
     - _UVDetail: 0
     - _UVEmissive: 0
@@ -254,7 +256,7 @@ Material:
     - _ZTestGBuffer: 4
     - _ZTestTransparent: 4
     - _ZWrite: 1
-    - _lineWidth: 0.75
+    - _lineWidth: 1.05
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
