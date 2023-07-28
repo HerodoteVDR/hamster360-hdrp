@@ -195,15 +195,15 @@ Material:
     - _MetallicRemapMax: 1
     - _MetallicRemapMin: 0
     - _Noise_intensity: 0.004
-    - _Noise_size: 57.8
+    - _Noise_size: 31.2
     - _NormalMapSpace: 0
     - _NormalScale: 1
-    - _Normal_max: 0.2
+    - _Normal_max: 3.78
     - _Normal_min: 0.29
     - _ObjectSpaceUVMapping: 0
     - _ObjectSpaceUVMappingEmissive: 0
     - _OpaqueCullMode: 2
-    - _Outline_render: 0
+    - _Outline_render: 1
     - _PPDLodThreshold: 5
     - _PPDMaxSamples: 15
     - _PPDMinSamples: 5
@@ -246,7 +246,7 @@ Material:
     - _TransparentSortPriority: 0
     - _TransparentWritingMotionVec: 0
     - _TransparentZWrite: 0
-    - _Twirl_intensity: 0.0079
+    - _Twirl_intensity: 0.1
     - _UVBase: 0
     - _UVDetail: 0
     - _UVEmissive: 0
