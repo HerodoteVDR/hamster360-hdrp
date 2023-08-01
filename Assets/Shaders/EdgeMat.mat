@@ -153,8 +153,8 @@ Material:
     - _CullModeForward: 2
     - _Cutoff: 0.5
     - _DepthOffsetEnable: 0
-    - _Depth_max: 0.47
-    - _Depth_min: 0.02
+    - _Depth_max: 0.64
+    - _Depth_min: 0.03
     - _DetailAlbedoScale: 1
     - _DetailNormalScale: 1
     - _DetailSmoothnessScale: 1
@@ -198,12 +198,12 @@ Material:
     - _Noise_size: 63.5
     - _NormalMapSpace: 0
     - _NormalScale: 1
-    - _Normal_max: 0.23
-    - _Normal_min: 1.89
+    - _Normal_max: 1.06
+    - _Normal_min: 1.53
     - _ObjectSpaceUVMapping: 0
     - _ObjectSpaceUVMappingEmissive: 0
     - _OpaqueCullMode: 2
-    - _Outline_render: 1
+    - _Outline_render: 0
     - _PPDLodThreshold: 5
     - _PPDMaxSamples: 15
     - _PPDMinSamples: 5
@@ -246,7 +246,7 @@ Material:
     - _TransparentSortPriority: 0
     - _TransparentWritingMotionVec: 0
     - _TransparentZWrite: 0
-    - _Twirl_intensity: 0.0222
+    - _Twirl_intensity: 0.0068
     - _UVBase: 0
     - _UVDetail: 0
     - _UVEmissive: 0
