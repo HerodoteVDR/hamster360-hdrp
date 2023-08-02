@@ -164,14 +164,14 @@ Material:
     - _Anisotropy: 0
     - _BlendMode: 0
     - _CoatMask: 0
-    - _Color_1_height: 0.238
-    - _Color_3_height: 0.483
+    - _Color_1_height: 0.226
+    - _Color_3_height: 0.44
     - _ConservativeDepthOffsetEnable: 0
     - _CullMode: 2
     - _CullModeForward: 2
     - _Cutoff: 0.5
     - _Decal: 16.2
-    - _Deformation_size: 5
+    - _Deformation_size: 5.92
     - _DepthOffsetEnable: 0
     - _DetailAlbedoScale: 1
     - _DetailNormalScale: 1
