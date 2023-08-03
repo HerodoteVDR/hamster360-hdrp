@@ -171,7 +171,7 @@ Material:
     - _CullModeForward: 2
     - _Cutoff: 0.5
     - _Decal: 16.2
-    - _Deformation_size: 5.92
+    - _Deformation_size: 13.42
     - _DepthOffsetEnable: 0
     - _DetailAlbedoScale: 1
     - _DetailNormalScale: 1
