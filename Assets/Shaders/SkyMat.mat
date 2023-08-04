@@ -216,7 +216,7 @@ Material:
     - _Number_of_lines: 100
     - _ObjectSpaceUVMapping: 0
     - _ObjectSpaceUVMappingEmissive: 0
-    - _Offset: 11.2
+    - _Offset: 7.7
     - _OpaqueCullMode: 2
     - _PPDLodThreshold: 5
     - _PPDMaxSamples: 15
